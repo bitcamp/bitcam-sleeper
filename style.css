@@ -1,0 +1,72 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  padding: 20px;
+  position: absolute;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0px 40px;
+
+  color: var(--color-white);
+}
+
+#hero {
+  height: 100%;
+}
+
+#hero img {
+  width: 128px;
+  height: auto;
+}
+
+/* Specific year styles */
+#2018-panel {
+  background: #ff0000;
+}
+
+/* General year styles */
+.year {
+  margin: 20px;
+}
+
+.year div {
+  background: var(--color-white);
+  max-width: 500px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.year a {
+  text-transform: uppercase;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer img {
+  width: 80px;
+  height: auto;
+}
